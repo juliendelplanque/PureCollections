@@ -3,7 +3,7 @@ I am a parametrizable stack. That is to say, I provide the interface of a stack 
 "
 Class {
 	#name : #PureStack,
-	#superclass : #Collection,
+	#superclass : #PureCollection,
 	#instVars : [
 		'strategy'
 	],
